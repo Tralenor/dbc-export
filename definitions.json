@@ -509,7 +509,23 @@
                                 {"name": "Bonus_10", "type": "int"},
                                 {"name": "Maxlevel", "type": "int"}
                         ]
-        }
-
+        },
+	{
+	    "name": "WorldMapArea",
+	    "table": "worldmaparea_dbc",
+	    "fields": [
+	        {"name": "ID", "type": "int"},
+	        {"name": "MapID", "type": "int"},
+	        {"name": "AreaID", "type": "int"},
+	        {"name": "AreaName", "type": "string"},
+	        {"name": "LocLeft", "type": "float"},
+	        {"name": "LocRight", "type": "float"},
+	        {"name": "LocTop", "type": "float"},
+	        {"name": "LocBottom", "type": "float"},
+	        {"name": "DisplayMapID", "type": "int"},
+	        {"name": "DefaultDungeonFloor", "type": "int"},
+	        {"name": "ParentWorldMapID", "type": "int"}
+	    ]
+	}
     ]
 }
