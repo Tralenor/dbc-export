@@ -509,8 +509,7 @@
                                 {"name": "Bonus_10", "type": "int"},
                                 {"name": "Maxlevel", "type": "int"}
                         ]
-        },
-	{
+        },{
 	    "name": "WorldMapArea",
 	    "table": "worldmaparea_dbc",
 	    "fields": [
@@ -526,6 +525,13 @@
 	        {"name": "DefaultDungeonFloor", "type": "int"},
 	        {"name": "ParentWorldMapID", "type": "int"}
 	    ]
-	}
+        }, {
+            "name": "SpellIcon",
+            "table": "spellicon_dbc",
+            "fields": [
+                {"name": "id", "type": "int"},
+                {"name": "path", "type": "string"},
+            ]
+        }
     ]
 }
